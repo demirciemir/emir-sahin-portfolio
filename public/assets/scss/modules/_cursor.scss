@@ -1,0 +1,28 @@
+.cursor {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--rdn-primary-color);
+  /* Cursor background color with some transparency */
+  border-radius: 50%;
+  pointer-events: none;
+  /* Prevent cursor from blocking mouse events on links */
+  z-index: 1000;
+  /* Set a lower z-index for the cursor */
+  transform: translate(-50%, -50%);
+  /* Center the cursor on the pointer */
+  transition:
+    width 0.3s,
+    height 0.3s,
+    background-color 0.3s;
+  &.large {
+    width: 100px;
+    /* Adjust the larger cursor size as needed */
+    height: 100px;
+    align-items: center;
+    /* Adjust the larger cursor size as needed */
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed var(--rdn-primary-color);
+  }
+}

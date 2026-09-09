@@ -1,0 +1,117 @@
+.contact_box {
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  .contact_img {
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .contact_meta {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+    li {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      color: var(--rdn-heading-color);
+      img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 16px;
+      }
+      i {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--rdn-heading-color);
+        border-radius: 422px;
+        font-size: 0.8rem;
+        color: var(--rdn-darker-color);
+      }
+    }
+  }
+}
+.contact_list {
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--rdn-heading-color);
+    font-size: 1rem;
+    i {
+      display: flex;
+      width: 32px;
+      height: 32px;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--rdn-heading-color-10);
+      color: var(--rdn-heading-color);
+      border-radius: 100px;
+      font-size: 0.8rem;
+      transition: 0.3s;
+    }
+    a:hover i {
+      background-color: var(--rdn-heading-color);
+      color: var(--rdn-darker-color);
+    }
+  }
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 32px 16px 32px;
+  border-radius: 8px;
+  input,
+  textarea {
+    color: var(--rdn-text-color);
+    padding: 16px 24px;
+    background-color: transparent;
+    border: 1px solid var(--rdn-heading-color-10);
+    border-radius: 4px;
+    &:focus {
+      border: 1px solid var(--rdn-heading-color);
+    }
+    &:focus-visible {
+      outline: none;
+    }
+  }
+  ::placeholder {
+    color: var(--rdn-heading-color-50);
+  }
+  .contact_btn {
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    outline: none;
+    padding: 16px 24px;
+    background-color: var(--rdn-heading-color);
+    color: var(--rdn-darker-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    transition: 0.3s;
+    &:hover {
+      background-color: var(--rdn-darker-color);
+      color: var(--rdn-heading-color);
+    }
+  }
+  .contact_out_text {
+    display: flex;
+    margin-top: 32px;
+  }
+  .contact_out_text:empty {
+    margin: 0;
+  }
+}

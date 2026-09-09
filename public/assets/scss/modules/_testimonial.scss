@@ -1,0 +1,73 @@
+.testi_outer {
+  margin-top: -100px;
+  z-index: 2;
+  position: relative;
+  .testi_icon {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    color: var(--rdn-primary-color);
+    font-size: 4rem;
+    z-index: 4;
+  }
+  .testi_info {
+    margin-top: 32px;
+    margin-bottom: 0;
+    gap: 32px;
+    li {
+      display: flex;
+      gap: 8px;
+      font-size: 1rem;
+      align-items: center;
+      i {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        color: var(--rdn-heading-color);
+        background-color: var(--rdn-heading-color-10);
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .testi_content {
+    padding: 32px;
+  }
+  .testi_img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .testi_nav {
+    li {
+      cursor: pointer;
+      position: absolute;
+      display: flex;
+      z-index: 3;
+      left: 0;
+      bottom: 0;
+      i {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        background-color: var(--rdn-heading-color);
+        color: var(--rdn-darker-color);
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6rem;
+        transition: 0.3s;
+      }
+      &.next {
+        left: 32px;
+      }
+      &:hover {
+        i {
+          background-color: var(--rdn-heading-color-30);
+        }
+      }
+    }
+  }
+}

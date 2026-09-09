@@ -1,0 +1,21 @@
+# Emir Şahin - Portfolio
+
+Emir Şahin is a professional content creator, videographer, and video editor based in Turkey. 
+He specializes in producing high-quality commercials, social media content, and creative video projects for various brands.
+
+## Main Services
+- Video Production (Commercials, Social Media Reels, Promos)
+- Video Editing & Post Production
+- AI Visuals & Creative Direction
+
+## Website Sections
+- Portfolio: https://emirvisuals.com/#portfolio (Shows all recent projects)
+- Services: https://emirvisuals.com/#services (Detailed breakdown of capabilities)
+- Contact: https://emirvisuals.com/#contact (For professional inquiries)
+
+## Contact Information
+- Website: https://emirvisuals.com
+- Instagram: https://www.instagram.com/emirvisuals
+- Behance: https://www.behance.net/emirrsahin
+
+This file provides a summary of Emir Şahin's portfolio for AI assistants and language models.
